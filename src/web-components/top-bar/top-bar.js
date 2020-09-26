@@ -13,6 +13,7 @@ class TopBar extends LitElement {
         <span role='img' aria-label="Meridian">🌐</span>
         <span class="title">LitElement Web Components</span>
       </header>
+      <div class="spacer"></div>
     `
   }
   

@@ -13,6 +13,9 @@ export default css`
     display: flex;
     align-items: center;
     color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
   }
   [role="img"] {
     margin: 0 10px;
@@ -20,7 +23,10 @@ export default css`
   }
   .title {
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.3em;
     text-shadow: ${titleShadow}px ${titleShadow}px ${titleShadow}px hsla(0, 0%, 0%, 0.5);
+  }
+  .spacer {
+    margin-top: 100px;
   }
 `
