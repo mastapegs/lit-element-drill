@@ -1,30 +1,10 @@
 import { LitElement, html, css } from 'lit-element'
+import cssTemplate from './longListCssTemplate'
 
 class LongList extends LitElement {
 
   static get styles() {
-    return css`
-      .container {
-        width: 80%;
-        margin: 0 auto;
-      }
-      ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        flex-flow: row wrap;
-      }
-      li {
-        margin: 7px 0;
-        border: 1px solid black;
-        display: inline-block;
-        flex: 1 1 10%;
-        box-sizing: border-box;
-        text-align: center;
-        border-radius: 50%;
-      }
-    `
+    return css`${cssTemplate}`
   }
 
   static get properties() {
@@ -36,7 +16,7 @@ class LongList extends LitElement {
   constructor() {
     super()
     this.numbers = []
-    for (let number = 1; number < 101; number++) {
+    for (let number = 1; number <= 1000; number++) {
       this.numbers = [...this.numbers, number]
     }
     console.log(this.numbers)
