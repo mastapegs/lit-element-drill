@@ -16,7 +16,7 @@ class LongList extends LitElement {
   constructor() {
     super()
     this.numbers = []
-    for (let number = 1; number <= 1000; number++) {
+    for (let number = 1; number <= 500; number++) {
       this.numbers = [...this.numbers, number]
     }
     console.log(this.numbers)
