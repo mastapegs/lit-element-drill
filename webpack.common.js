@@ -9,7 +9,10 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Web Component Drill'
+      title: 'Web Component Drill',
+      meta: {
+        description: "LitElement Web App"
+      }
     }),
   ],
   output: {
