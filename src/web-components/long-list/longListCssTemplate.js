@@ -6,6 +6,7 @@ export default css`
   .container {
     width: 80%;
     margin: 0 auto;
+    max-width: 768px;
   }
   ul {
     list-style: none;
