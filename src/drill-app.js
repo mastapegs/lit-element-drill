@@ -1,5 +1,5 @@
 import { LitElement, html } from 'lit-element';
-import './web-components/top-bar'
+import './web-components/top-bar/'
 
 class DrillApp extends LitElement {
   render() {

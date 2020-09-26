@@ -10,7 +10,7 @@ class TopBar extends LitElement {
       header {
         background: #2196f3;
         height: 70px;
-        box-shadow: 0px 0px 10px 5px hsl(0, 0%, 0%, .5);
+        box-shadow: 0px 0px 10px 5px hsla(0, 0%, 0%, .5);
         display: flex;
         align-items: center;
         color: white;
@@ -22,6 +22,7 @@ class TopBar extends LitElement {
       .title {
         font-weight: bold;
         font-size: 1.5em;
+        text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.5);
       }
     `
   }
