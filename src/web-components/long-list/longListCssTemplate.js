@@ -23,10 +23,9 @@ export default css`
     box-sizing: border-box;
     text-align: center;
     border-radius: 30%;
-    background: #69F0AE;
-    color: hsla(0, 0%, 20%, .9);
+    background: #3949AB;
+    color: white;
     text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.3);
     box-shadow: 0px 0px 3px 1px hsla(0, 0%, 0%, 0.5);
-    font-weight: bold;
   }
 `
