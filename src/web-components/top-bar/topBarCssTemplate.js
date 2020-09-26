@@ -7,7 +7,7 @@ export default css`
     display: block;
   }
   header {
-    background: #2196f3;
+    background: #43A047;
     height: 70px;
     box-shadow: 0px 0px 10px 5px hsla(0, 0%, 0%, .5);
     display: flex;
