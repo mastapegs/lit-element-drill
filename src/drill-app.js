@@ -1,10 +1,10 @@
 import { LitElement, html } from 'lit-element';
-import './web-components/hello-world'
+import './web-components/top-bar'
 
 class DrillApp extends LitElement {
   render() {
     return html`
-      <hello-world></hello-world>
+      <top-bar></top-bar>
     `;
   }
 }
