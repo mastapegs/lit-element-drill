@@ -1,6 +1,6 @@
 import { css } from 'lit-element'
 
-const gutter = 3
+const gutter = 10
 
 export default css`
   .container {
@@ -13,12 +13,11 @@ export default css`
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     column-gap: ${gutter}px;
     row-gap: ${gutter}px;
   }
   li {
-    margin: 7px 0;
     border: 1px solid hsla(0, 0%, 0%, 0.5);
     display: inline-block;
     box-sizing: border-box;
