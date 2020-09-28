@@ -43,5 +43,6 @@ export default css`
   .button-container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
   }
 `
