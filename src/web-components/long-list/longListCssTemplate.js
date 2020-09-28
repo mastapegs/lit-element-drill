@@ -1,6 +1,7 @@
 import { css } from 'lit-element'
 
 const gutter = 10
+const buttonShadow = 3
 
 export default css`
   .container {
@@ -10,10 +11,10 @@ export default css`
   }
   ul {
     list-style: none;
-    margin: 0;
+    margin: 1em 0;
     padding: 0;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     column-gap: ${gutter}px;
     row-gap: ${gutter}px;
   }
@@ -27,5 +28,16 @@ export default css`
     color: white;
     text-shadow: 1px 1px 1px hsla(0, 0%, 0%, 0.3);
     box-shadow: 0px 0px 3px 1px hsla(0, 0%, 0%, 0.5);
+    overflow: hidden;
+  }
+  button {
+    background: #43A047;
+    color: white;
+    font-weight: bold;
+    padding: 0.7em;
+    border: 2px solid black;
+    border-radius: 20%;
+    box-shadow: ${buttonShadow}px ${buttonShadow}px ${buttonShadow}px 0px hsla(0, 0%, 0%, 0.5);
+    cursor: pointer;
   }
 `
