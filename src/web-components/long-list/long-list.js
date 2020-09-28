@@ -31,9 +31,11 @@ class LongList extends LitElement {
   render() {
     return html`
       <div class="container">
-        <button @click=${()=> this.handleClick(1)}>Increment Exponent</button>
-        <button @click=${()=> this.handleClick(-1)}>Decrement Exponent</button>
-        <button @click=${()=> this.handleClick(1 - this.exponent)}>Reset Exponent</button>
+        <div class="button-container">
+          <button @click=${()=> this.handleClick(1)}>Increment Exponent</button>
+          <button @click=${()=> this.handleClick(-1)}>Decrement Exponent</button>
+          <button @click=${()=> this.handleClick(1 - this.exponent)}>Reset Exponent</button>
+        </div>
         <ul>
           ${repeat(this.numbers, number => number, number => (html`
           <li>${number}<sup>${this.exponent}</sup>=${Math.pow(number, this.exponent)}</li>

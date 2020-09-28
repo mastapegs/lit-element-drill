@@ -40,4 +40,8 @@ export default css`
     box-shadow: ${buttonShadow}px ${buttonShadow}px ${buttonShadow}px 0px hsla(0, 0%, 0%, 0.5);
     cursor: pointer;
   }
+  .button-container {
+    display: flex;
+    justify-content: space-around;
+  }
 `
