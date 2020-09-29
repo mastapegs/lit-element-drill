@@ -1,6 +1,7 @@
 import { LitElement, html } from 'lit-element';
 import './web-components/top-bar/'
 import './web-components/long-list/'
+import './web-components/app-router/'
 
 class DrillApp extends LitElement {
 
@@ -8,6 +9,7 @@ class DrillApp extends LitElement {
     return html`
       <top-bar></top-bar>
       <long-list></long-list>
+      <app-router></app-router>
     `;
   }
 
