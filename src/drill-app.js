@@ -9,7 +9,7 @@ class DrillApp extends LitElement {
     return html`
       <top-bar></top-bar>
       <long-list></long-list>
-      <app-router></app-router>
+      <!-- <app-router></app-router> -->
     `;
   }
 
